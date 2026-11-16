@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pulse — make.fun bounties, live</title>
+<meta name="description" content="Pulse is a fast, lightweight frontend for make.fun: every live bounty, its pot, deadline and leaderboard, plus entrant profiles.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="#/" aria-label="Pulse — bounty board">
+    <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="#101823"/><path d="M4 18h6l2.5-8 4 13 3-5H28" fill="none" stroke="#4ade80" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <span class="brand-name">Pulse</span>
+    <span class="brand-tag">make.fun, live</span>
+  </a>
+  <nav class="site-nav" aria-label="Primary">
+    <a href="#/">Board</a>
+    <a href="https://make.fun" rel="noopener">make.fun ↗</a>
+  </nav>
+</header>
+<main id="view" class="view" tabindex="-1"></main>
+<footer class="site-footer">
+  <p>Pulse reads make.fun's public API only — no tracking, no build step, no framework. Data refreshes as the API's own cache allows.</p>
+</footer>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
